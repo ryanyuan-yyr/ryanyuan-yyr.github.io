@@ -46,7 +46,7 @@
     GPA: 3.97/4.3 (ranking 6/252), \ Average score: 92.24/100 \\
     Core courses: \\
     \begin{tabular}{l@{\hspace{1ex}} @{} >{}l @{\hspace{6ex}} l l@{\hspace{1ex}} >{}l @{\hspace{6ex}} l }
-        $\cdot$ & Operating Systems                 & 97/100 &
+        $\cdot$ & Operating Systems (Honors)        & 97/100 &
         $\cdot$ & Computer Organization \& Design   & 94/100   \\
         $\cdot$ & Data Structures                   & 95/100 &
         $\cdot$ & Introduction to Computing Systems & 95/100   \\
@@ -63,9 +63,9 @@
 
     \begin{rSubsection}{\href{http://adsl.ustc.edu.cn/}{Advanced Data Systems Laboratory, USTC}}{November 2021 - Present}{Research Assistant, Advisor: \href{http://staff.ustc.edu.cn/~chengli7/}{Cheng Li}}{\href{https://gitlab.com/hipress/hipress}{gitlab.com/hipress/hipress}}
 
-        \item Researched on gradient compression algorithms used in DNN training, including TernGrad and 3-LC. 
-        \item Extended \texttt{CompLL}, a compiler that aims to help practitioners develop gradient compression algorithms by converting a DSL into highly-optimized CUDA C++ code, to support more language features, including loops, arrays and an operator \texttt{prefix\_sum}. 
-        \item Implemented algorihtm 3-LC in the DSL and converted it into CUDA C++ code using the extended compiler. 
+        \item Researched on gradient compression algorithms used in DNN training, including TernGrad and 3-LC.
+        \item Extended \texttt{CompLL}, a compiler that aims to help practitioners develop gradient compression algorithms by converting a DSL into highly-optimized CUDA C++ code, to support more language features, including loops, arrays, and an operator \texttt{prefix\_sum}.
+        \item Implemented algorithm 3-LC in the DSL and converted it into CUDA C++ code using the extended compiler.
     \end{rSubsection}
 
     %------------------------------------------------
@@ -80,23 +80,33 @@
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Selected Course Projects}
-    \begin{rSubsection}{A Compiler for \texttt{cminiusf}, a C-like Programming Language}{October 2021 - January 2022}{Compilers Principles, prof. \href{http://staff.ustc.edu.cn/~chengli7/}{Cheng Li}}{\href{https://github.com/ryanyuan-yyr/2021fall-compiler\_cminus}{github.com/ryanyuan-yyr/2021fall-compiler\_cminus}}
-        \item Used \texttt{Lexer} and \texttt{Bison} to implement the lexical and semantic analysis.
-        \item Led a group of 3 to build the abstract syntax tree, translate \texttt{cminusf} source code into LLVM IR, and  implement constant propagation, live-variable analysis and loop invariant hoist with C++.
+    \begin{rSubsection}{A Compiler for \texttt{cminiusf}, a C-like Programming Language}{October 2021 - January 2022}{Compilers Principles, prof.\href{http://staff.ustc.edu.cn/~chengli7/}{Cheng Li}}{\href{https://github.com/ryanyuan-yyr/2021fall-compiler\_cminus}{github.com/ryanyuan-yyr/2021fall-compiler\_cminus}}
+        \item Used \texttt{lexer} and \texttt{bison} to implement the lexical and semantic analysis.
+        \item Led a group of 3 to build the abstract syntax tree, translate \texttt{cminusf} source code into LLVM IR, and  implement machine independent optimization(constant propagation, live-variable analysis and loop invariant hoist) with C++.
         \item Extended the syntax of \texttt{cminusf}, including structures, member functions, class templates and operator overloading.
     \end{rSubsection}
 
-    \begin{rSubsection}{A Primary 5-Stage-Pipelined RISC-V CPU with FPGA}{May 2021 - June 2021}{Computer Organization \& Design, prof. \href{http://staff.ustc.edu.cn/~cswang/}{Chao Wang}}{\href{https://github.com/ryanyuan-yyr/COD-Labs}{github.com/ryanyuan-yyr/COD-Labs}}
-        \item Implemented a pipelined CPU in \texttt{Verilog}, supporting arithmetic instructions, load/store instructions, memory mapped I/O, instruction \texttt{ecall} and interrupts. 
+    \begin{rSubsection}{A Primary 5-Stage-Pipelined RISC-V CPU with FPGA}{May 2021 - June 2021}{Computer Organization \& Design, prof.\href{http://staff.ustc.edu.cn/~cswang/}{Chao Wang}}{\href{https://github.com/ryanyuan-yyr/COD-Labs}{github.com/ryanyuan-yyr/COD-Labs}}
+        \item Implemented a pipelined CPU in \texttt{Verilog}, supporting arithmetic instructions, load/store instructions, memory mapped I/O, instruction \texttt{ecall} and interrupts.
         \item Performed stimulation and synthesis on Vivado. Programmed on the FPGA development board.
     \end{rSubsection}
+
+    \begin{rSubsection}{Shell in Rust}{May 2021}{Operating Systems(Honors), prof.\href{http://staff.ustc.edu.cn/~kxing/}{Kai Xing}}{\href{https://github.com/ryanyuan-yyr/OSH-2021-Labs/tree/main/lab2}{github.com/ryanyuan-yyr/OSH-2021-Labs/tree/main/lab2}}
+        \item Learned about basic concepts and syntax of Rust.
+        \item Implemented a shell in Rust, supporting pipe, \texttt{SIGINT}, and I/O redirection.
+    \end{rSubsection}
+
+    \begin{rSubsection}{FAT16 in User Space}{June 2021}{Operating Systems, prof.\href{http://staff.ustc.edu.cn/~ykli/}{Yongkun Li}}{\href{https://github.com/ryanyuan-yyr/FAT-filesystem}{github.com/ryanyuan-yyr/FAT-filesystem}}
+        \item Used FUSE to implement a FAT16 filesystem on Ubuntu, supporting the creation and removal of files and directories.
+    \end{rSubsection}
+
 \end{rSection}
 
 \begin{rSection}{Miscellaneous}
     \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
         Language           & TOEFL: 105/120. Reading 30, Listening 24, Speaking 22, Writing 29      \\
         Awards             & Scholarship for Outstanding Students, 2020 - 2021 (Gold award, 15/172) \\
-        Programming skills & C, C++, Python, Verilog                                                \\
+        Programming skills & C, C++, Python, Rust, Verilog                                          \\
         Software skills    & Vivado, \LaTeX, Visual Studio Code                                     \\
         Volunteer work     & Mathematics tutor for high school students
     \end{tabular}
