@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: Jan.2022
 inline: true
 ---
 
-A simple inline announcement.
+I am currently looking forward to a self-funded research internship oppotunity in 2022 summer. My research interests lie in system architecture, high performance computing and compiler techniques. Check out my [Curriculum Vitae](/assets/pdf/cv.pdf)  for more. 

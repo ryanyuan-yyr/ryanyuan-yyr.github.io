@@ -2,8 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Ryan's homepage # the website title (if blank, full name will be used instead)
-first_name: Ryan
+title: Yurun's homepage # the website title (if blank, full name will be used instead)
+first_name: Yurun
 # middle_name: R.
 last_name: Yuan
 email: yr_yuan@mail.ustc.edu.cn
@@ -27,7 +27,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+# rss_icon: true
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -53,30 +53,30 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
-gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
-medium_username: # your Medium username
-quora_username: # your Quora username
-publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
-blogger_url: # your blogger URL
-work_url: # work page URL
-keybase_username: # your keybase user name
-wikidata_id: # your wikidata id
-dblp_url: # your DBLP profile url
-stackoverflow_id: #your stackoverflow id
+github_username: ryanyuan-yyr # your GitHub user name
+gitlab_username: ryanyuan-yyr # your GitLab user name
+# twitter_username: # your Twitter handle
+# linkedin_username: # your LinkedIn user name
+# scholar_userid: # your Google Scholar ID
+# orcid_id: # your ORCID ID
+# medium_username: # your Medium username
+# quora_username: # your Quora username
+# publons_id: # your ID on Publons
+# research_gate_profile: # your profile on ResearchGate
+# blogger_url: # your blogger URL
+# work_url: # work page URL
+# keybase_username: # your keybase user name
+# wikidata_id: # your wikidata id
+# dblp_url: # your DBLP profile url
+# stackoverflow_id: #your stackoverflow id
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+# contact_note: >
+#   You can even add a little note about which of these is the best way to reach you.
 
-google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
-google_site_verification:  # your google-site-verification ID (Google Search Console)
-bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
-panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
+# google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
+# google_site_verification:  # your google-site-verification ID (Google Search Console)
+# bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
+# panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -99,11 +99,11 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # -----------------------------------------------------------------------------
 
 collections:
-  # news:
-  #   defaults:
-  #     layout: post
-  #   output: true
-  #   permalink: /news/:path/
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
   projects:
     output: true
     permalink: /projects/:path/
