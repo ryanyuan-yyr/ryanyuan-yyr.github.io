@@ -1,6 +1,6 @@
 ---
 layout: page
-title: LC-3 assembler
+title: LC-3 Assembler
 description: An LC-3 assembler that supports detailed error messages
 img: assets/img/binary code.jpg
 importance: 1

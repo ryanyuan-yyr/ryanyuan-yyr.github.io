@@ -1,6 +1,6 @@
 ---
 layout: page
-title: cminusf compiler
+title: `cminusf` Compiler
 description: A compiler frontend for a C-like language
 img: assets/img/cminusf.jpg
 importance: 1

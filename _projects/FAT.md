@@ -1,6 +1,6 @@
 ---
 layout: page
-title: FAT16 in user space
+title: FAT16 in User Space
 description: FAT16 implementation using FUSE
 img: assets/img/hard drive.jpg
 importance: 1

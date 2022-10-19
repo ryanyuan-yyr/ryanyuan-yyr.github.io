@@ -1,6 +1,6 @@
 ---
 layout: page
-title: LUNA AI lab API backend
+title: LUNA AI Lab API Backend
 description: A backend for API website
 img: assets/img/luna.JPEG
 importance: 1

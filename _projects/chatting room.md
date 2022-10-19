@@ -1,6 +1,6 @@
 ---
 layout: page
-title: chatting group
+title: Chatting Group
 description: OSH course project -- A chatting group that connects everyone
 img: assets/img/chatting.jpg
 importance: 1

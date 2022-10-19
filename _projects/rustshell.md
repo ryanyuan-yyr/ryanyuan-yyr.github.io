@@ -1,6 +1,6 @@
 ---
 layout: page
-title: shell in rust
+title: Shell in Rust
 description: OSH course project -- write a shell in rust
 img: assets/img/rust.jpg
 importance: 1

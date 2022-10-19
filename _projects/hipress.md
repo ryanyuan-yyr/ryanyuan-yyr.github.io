@@ -7,7 +7,7 @@ importance: 1
 category: Research projects
 ---
 
-This project (or, followup) is to extend the syntax of a DSL and modify the current compiler implementation to support more algorithms that can be implemented with this DSL. 
+This project is to extend the syntax of a DSL and modify the current compiler implementation to support more algorithms that can be implemented with this DSL. 
 
 The project is a follow-up study of [this project](https://www.ruichuan.org/papers/hipress-sosp21.pdf). The goal of `CompLL` is to ease the practitioners from the difficulties of coding a highly proficient gradient algorithm. 
 
