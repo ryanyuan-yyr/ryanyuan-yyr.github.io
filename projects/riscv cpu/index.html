@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Yurun's homepage | blog</title>
+    <title>Yurun's homepage | RISC-V CPU on FPGA</title>
     <meta name="author" content="Yurun  Yuan" />
-    <meta name="description" content="My personal website. 
-" />
+    <meta name="description" content="A 5-stage-pipelined RISC-V CPU implemented on FPGA" />
     <meta name="keywords" content="Computer science, researcher, student, computer systems." />
 
 
@@ -32,7 +31,7 @@
     <!-- Styles -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://ryanyuan-yyr.github.io//blog/">
+    <link rel="canonical" href="https://ryanyuan-yyr.github.io//projects/riscv%20cpu/">
 
     <!-- Dark Mode -->
     <script src="/assets/js/theme.js"></script>
@@ -92,21 +91,34 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+          <header class="post-header">
+            <h1 class="post-title">RISC-V CPU on FPGA</h1>
+            <p class="post-description">A 5-stage-pipelined RISC-V CPU implemented on FPGA</p>
+          </header>
 
+          <article>
+            <p>This project is a course project in Computer Organization and Design.</p>
 
-  <ul class="post-list">
-    
-  </ul>
+<p>In this project, we implemented a 5-stage-pipelined RISC-V CPU on FPGA, by writing Verilog code, perform stimulation &amp; synthesis on Vivado and program on an FPGA development board.</p>
 
-  
+<p>The project has 6 phases:</p>
+<ol>
+  <li>Lab1: ALU</li>
+  <li>Lab2: Registers and memories</li>
+  <li>Lab3: How to write RISCV assembly codes</li>
+  <li>Lab4: Single cycle CPU design</li>
+  <li>Lab5: 5-stage-pipelined CPU design</li>
+  <li>Lab6: A capstone lab. The students were asked to implement whatever they want based on the framework of the previous projects. I implemented <code class="language-plaintext highlighter-rouge">ecall</code>(by which I am allowed to display digits and control LED lights on the development board) and interrupts based on lab5.</li>
+</ol>
 
-</div>
+<p>The project can be found <a href="https://github.com/ryanyuan-yyr/COD-Labs" target="_blank" rel="noopener noreferrer">here</a>.</p>
+
+          </article>
+
+        </div>
 
     </div>
 

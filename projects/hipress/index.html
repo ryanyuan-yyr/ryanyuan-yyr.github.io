@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Yurun's homepage | blog</title>
+    <title>Yurun's homepage | Extension of CompLL</title>
     <meta name="author" content="Yurun  Yuan" />
-    <meta name="description" content="My personal website. 
-" />
+    <meta name="description" content="CompLL is a compiler for a DSL that aims to help practitioners to easily implement highly-opitimized gradient compression algorithms used in DNN training." />
     <meta name="keywords" content="Computer science, researcher, student, computer systems." />
 
 
@@ -32,7 +31,7 @@
     <!-- Styles -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://ryanyuan-yyr.github.io//blog/">
+    <link rel="canonical" href="https://ryanyuan-yyr.github.io//projects/hipress/">
 
     <!-- Dark Mode -->
     <script src="/assets/js/theme.js"></script>
@@ -92,21 +91,31 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+          <header class="post-header">
+            <h1 class="post-title">Extension of CompLL</h1>
+            <p class="post-description">CompLL is a compiler for a DSL that aims to help practitioners to easily implement highly-opitimized gradient compression algorithms used in DNN training.</p>
+          </header>
 
+          <article>
+            <p>This project is to extend the syntax of a DSL and modify the current compiler implementation to support more algorithms that can be implemented with this DSL.</p>
 
-  <ul class="post-list">
-    
-  </ul>
+<p>The project is a follow-up study of <a href="https://www.ruichuan.org/papers/hipress-sosp21.pdf" target="_blank" rel="noopener noreferrer">this project</a>. The goal of <code class="language-plaintext highlighter-rouge">CompLL</code> is to ease the practitioners from the difficulties of coding a highly proficient gradient algorithm.</p>
 
-  
+<p>CompLL provides a unified API abstraction for implementing gradient compression algorithms. It has two simple APIs: encode and decode, as well as a few algorithm-specific parameters (e.g., compression
+rate for sparsification, and bitwidth or precision for quantization). The encode API takes as input a gradient matrix and generates a compressed gradient as output. In particular, we use uint8 as the type of the output matrix, because we can then cast one or multiple uint8 to any type in CUDA. On the other hand, the decode API unfolds a compressed gradient into its original form.</p>
 
-</div>
+<p>In the publication above, you can find an implementation of <code class="language-plaintext highlighter-rouge">TernGrad</code> using this specific DSL. However, the syntax supported is still limited to implement some sophisticated algorithms.</p>
+
+<p>Currently, I am modifying the compiler to implement <code class="language-plaintext highlighter-rouge">3-LC</code>, a relatively complex gradient compression/decompression algorihm.</p>
+
+<p>The source code of this project can be accessed <a href="https://gitlab.com/hipress/hipress" target="_blank" rel="noopener noreferrer">here</a>.</p>
+
+          </article>
+
+        </div>
 
     </div>
 

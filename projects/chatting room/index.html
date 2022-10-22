@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Yurun's homepage | blog</title>
+    <title>Yurun's homepage | Chatting Group</title>
     <meta name="author" content="Yurun  Yuan" />
-    <meta name="description" content="My personal website. 
-" />
+    <meta name="description" content="OSH course project -- A chatting group that connects everyone" />
     <meta name="keywords" content="Computer science, researcher, student, computer systems." />
 
 
@@ -32,7 +31,7 @@
     <!-- Styles -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://ryanyuan-yyr.github.io//blog/">
+    <link rel="canonical" href="https://ryanyuan-yyr.github.io//projects/chatting%20room/">
 
     <!-- Dark Mode -->
     <script src="/assets/js/theme.js"></script>
@@ -92,21 +91,38 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+          <header class="post-header">
+            <h1 class="post-title">Chatting Group</h1>
+            <p class="post-description">OSH course project -- A chatting group that connects everyone</p>
+          </header>
 
+          <article>
+            <p>This project is a course project of Operating Systems(Honor), i.e., OSH.</p>
 
-  <ul class="post-list">
-    
-  </ul>
+<p>In this project, we need to implement a group chatting program that forward the message from each person to everyone else. The program is implemented in 2 versions:</p>
+<ol>
+  <li>
+    <p>Using mutithread
+For each client(that is, a person in the chatting group), an exlusive thread is made to receive messages from everyone else as well as sending the message from this client to others.</p>
+  </li>
+  <li>
+    <p>Using <code class="language-plaintext highlighter-rouge">select</code></p>
+    <blockquote>
+      <p><code class="language-plaintext highlighter-rouge">select()</code>  and <code class="language-plaintext highlighter-rouge">pselect()</code> allow a program to monitor multiple file descriptors, waiting until one or more of the file descriptors become “ready” for some class of I/O operation (e.g., input possible).</p>
+    </blockquote>
+  </li>
+</ol>
 
-  
+<p>By using <code class="language-plaintext highlighter-rouge">select</code>, multi-thread programming is not need.</p>
 
-</div>
+<p>The project can be found <a href="https://github.com/ryanyuan-yyr/OSH-2021-Labs/tree/main/lab3" target="_blank" rel="noopener noreferrer">here</a>.</p>
+
+          </article>
+
+        </div>
 
     </div>
 
