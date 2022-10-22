@@ -18,3 +18,5 @@ social: true  # includes social icons at the bottom of the page
 I am an undergraduate student at University of Science and Technology of China, major in Computer Science. My interests include computer architecture and compiler techniques. 
 
 I am expected to receive my bachelor degree in 2023 and apply for a PhD program in CS in the near future. 
+
+Please see [projects](/projects) to learn more about my experiences. 
